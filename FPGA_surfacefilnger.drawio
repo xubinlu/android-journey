@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T11:44:15.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vgTBgbYvLw_OhT0eB_hB" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-25T11:44:44.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="75P11pqH7loQ-EadpoxE" version="24.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1378" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,29 +80,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-27" value="刷图" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="182" y="689" width="75" height="40" as="geometry" />
+          <mxGeometry x="594" y="80" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-28" target="-GVNDicq8zcGFJ8YRAbc-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="804" as="targetPoint" />
+            <mxPoint x="732" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-28" target="-GVNDicq8zcGFJ8YRAbc-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-28" value="上次刷图&lt;div&gt;是否完成&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="179" y="774" width="80" height="60" as="geometry" />
+          <mxGeometry x="591" y="165" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="750" as="targetPoint" />
+            <mxPoint x="632" y="141" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="358" y="750" />
+              <mxPoint x="770" y="141" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-31" value="记录已刷了多少帧，延迟指定时间" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="781" width="100" height="46" as="geometry" />
+          <mxGeometry x="720" y="172" width="100" height="46" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-40" target="-GVNDicq8zcGFJ8YRAbc-41">
           <mxGeometry relative="1" as="geometry" />
@@ -110,29 +110,29 @@
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-40" target="-GVNDicq8zcGFJ8YRAbc-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="279" y="894" />
-              <mxPoint x="279" y="1020" />
-              <mxPoint x="218" y="1020" />
+              <mxPoint x="691" y="285" />
+              <mxPoint x="691" y="411" />
+              <mxPoint x="630" y="411" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-40" value="&lt;span style=&quot;background-color: initial;&quot;&gt;A2或DU&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="179" y="864" width="80" height="60" as="geometry" />
+          <mxGeometry x="591" y="255" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-41" target="-GVNDicq8zcGFJ8YRAbc-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-41" value="Dither灰度图" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="956" width="75" height="40" as="geometry" />
+          <mxGeometry x="592" y="347" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-GVNDicq8zcGFJ8YRAbc-44" target="-GVNDicq8zcGFJ8YRAbc-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-44" value="发送刷图命令" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="158" y="1044" width="120" height="40" as="geometry" />
+          <mxGeometry x="570" y="435" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GVNDicq8zcGFJ8YRAbc-50" value="FPGA刷图" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="1044" width="120" height="40" as="geometry" />
+          <mxGeometry x="742" y="435" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
