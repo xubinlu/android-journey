@@ -58,26 +58,38 @@
         <mxCell id="dGEYNNW8LAhB9YcoBpNP-14" value="先校验完整性，再拷贝波形到nvcfg/firmware" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-18" target="dGEYNNW8LAhB9YcoBpNP-22">
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-18" value="校验波形完整性后&lt;div&gt;更新波形&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="533.75" width="120" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-26" target="dGEYNNW8LAhB9YcoBpNP-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-18" value="校验波形完整性" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-26" value="判断文件是否存在" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-20" value="校验波形完整性" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="525" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-22" target="dGEYNNW8LAhB9YcoBpNP-24">
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-27" target="dGEYNNW8LAhB9YcoBpNP-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-22" value="是否完整" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="630" width="120" height="55" as="geometry" />
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-27" target="dGEYNNW8LAhB9YcoBpNP-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-24" value="更新波形" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-27" value="调用Surfaceflinger接口检查文件完整性" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dGEYNNW8LAhB9YcoBpNP-26" value="先校验完整性，再拷贝波形到nvcfg/firmware" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="880" width="120" height="60" as="geometry" />
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-29" target="dGEYNNW8LAhB9YcoBpNP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-29" value="Surfaceflinger校验文件完整性" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dGEYNNW8LAhB9YcoBpNP-32" target="dGEYNNW8LAhB9YcoBpNP-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-32" value="文件完整性是否通过" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="1040" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dGEYNNW8LAhB9YcoBpNP-34" value="拷贝文件到&lt;div&gt;nvcfg/firmware&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
