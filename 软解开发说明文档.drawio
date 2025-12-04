@@ -34,14 +34,14 @@
         <mxCell id="8vo4OhTq8frCDT7aDKK4-7" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彩色图像转灰，把转灰结果写入到Curbuf" vertex="1">
-          <mxGeometry height="40" width="125" x="243" y="510" as="geometry" />
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彩色图像转灰和DIther，把结果写入到Curbuf" vertex="1">
+          <mxGeometry height="40" width="137" x="237" y="510" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-39" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据CurBuf和PreBuf查询波形表合成时序" vertex="1">
-          <mxGeometry height="40" width="125" x="243" y="580" as="geometry" />
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="逐像素遍历CurBuf和PreBuf查询波形表合成时序" vertex="1">
+          <mxGeometry height="40" width="147" x="231" y="580" as="geometry" />
         </mxCell>
         <mxCell id="uEfUsDrf_YHYb4tcvCho-2" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uEfUsDrf_YHYb4tcvCho-1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,8 +49,10 @@
         <mxCell id="8vo4OhTq8frCDT7aDKK4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新需要消残影的点记录GhostClear" vertex="1">
           <mxGeometry height="40" width="125" x="242.5" y="648" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-21" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-21" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-54" connectable="0" parent="8vo4OhTq8frCDT7aDKK4-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
           <mxGeometry relative="1" x="-0.25" y="-1" as="geometry">
@@ -73,17 +75,11 @@
         <mxCell id="8vo4OhTq8frCDT7aDKK4-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否有新&lt;div&gt;页面&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;刷新&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="108" x="251" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-19" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行消残影流程" vertex="1">
-          <mxGeometry height="40" width="120" x="245" y="870" as="geometry" />
-        </mxCell>
         <mxCell id="uEfUsDrf_YHYb4tcvCho-6" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uEfUsDrf_YHYb4tcvCho-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据GhostClear查询消残影波形合成时序" vertex="1">
-          <mxGeometry height="40" width="120" x="245" y="940" as="geometry" />
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="逐像素遍历GhostClear并根据消残影波形合成时序" vertex="1">
+          <mxGeometry height="40" width="155" x="230" y="871" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-46" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
           <mxGeometry height="330" width="240" x="460" y="500" as="geometry" />
@@ -152,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="30" width="75" x="269" y="1073" as="geometry" />
+          <mxGeometry height="30" width="75" x="269" y="1004" as="geometry" />
         </mxCell>
         <mxCell id="uEfUsDrf_YHYb4tcvCho-4" edge="1" parent="1" source="uEfUsDrf_YHYb4tcvCho-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-10">
           <mxGeometry relative="1" as="geometry" />
@@ -164,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uEfUsDrf_YHYb4tcvCho-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="发送时序到HWC" vertex="1">
-          <mxGeometry height="40" width="117" x="248" y="1007" as="geometry" />
+          <mxGeometry height="40" width="117" x="248" y="938" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
