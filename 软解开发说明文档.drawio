@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="第 1 页" id="c5PcC3g2DbXVKvtc1jpD">
-    <mxGraphModel dx="949" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,21 +35,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="彩色图像转灰，把转灰结果写入到Curbuf" vertex="1">
-          <mxGeometry height="40" width="125" x="243" y="520" as="geometry" />
+          <mxGeometry height="40" width="125" x="243" y="510" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-39" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据CurBuf和PreBuf查询波形表合成时序" vertex="1">
-          <mxGeometry height="40" width="125" x="243" y="596" as="geometry" />
+          <mxGeometry height="40" width="125" x="243" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-40" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="305" y="750" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-2" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uEfUsDrf_YHYb4tcvCho-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新需要消残影的点记录GhostClear" vertex="1">
-          <mxGeometry height="40" width="125" x="242.5" y="670" as="geometry" />
+          <mxGeometry height="40" width="125" x="242.5" y="648" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-21" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-13">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +60,7 @@
         <mxCell id="8vo4OhTq8frCDT7aDKK4-52" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="784" />
+              <mxPoint x="200" y="805" />
               <mxPoint x="200" y="390" />
             </Array>
           </mxGeometry>
@@ -73,27 +71,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否有新&lt;div&gt;页面&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;刷新&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="108" x="251" y="759" as="geometry" />
+          <mxGeometry height="50" width="108" x="251" y="780" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-19" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行消残影流程" vertex="1">
-          <mxGeometry height="40" width="120" x="245" y="849" as="geometry" />
+          <mxGeometry height="40" width="120" x="245" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-51" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-50">
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-6" edge="1" parent="1" source="8vo4OhTq8frCDT7aDKK4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uEfUsDrf_YHYb4tcvCho-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="根据GhostClear查询消残影波形合成时序" vertex="1">
-          <mxGeometry height="40" width="120" x="245" y="929" as="geometry" />
+          <mxGeometry height="40" width="120" x="245" y="940" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-46" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="330" width="240" x="460" y="509" as="geometry" />
+          <mxGeometry height="330" width="240" x="460" y="500" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-36" edge="1" parent="8vo4OhTq8frCDT7aDKK4-46" source="8vo4OhTq8frCDT7aDKK4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-22" parent="8vo4OhTq8frCDT7aDKK4-46" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历所有的像素点" vertex="1">
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-22" parent="8vo4OhTq8frCDT7aDKK4-46" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历所有CurBuf和PreBuf的像素点" vertex="1">
           <mxGeometry height="40" width="125" x="56.289999999999964" y="8" as="geometry" />
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-25" edge="1" parent="8vo4OhTq8frCDT7aDKK4-46" source="8vo4OhTq8frCDT7aDKK4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-28">
@@ -147,14 +145,26 @@
         <mxCell id="8vo4OhTq8frCDT7aDKK4-29" parent="8vo4OhTq8frCDT7aDKK4-46" style="whiteSpace=wrap;html=1;" value="记录当前点周围八个点黑切白的个数写入GhostClear" vertex="1">
           <mxGeometry height="40" width="147.5" x="45.039999999999964" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="8vo4OhTq8frCDT7aDKK4-48" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" target="8vo4OhTq8frCDT7aDKK4-46" value="">
+        <mxCell id="8vo4OhTq8frCDT7aDKK4-48" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="370" y="690" as="sourcePoint" />
-            <mxPoint x="430" y="650" as="targetPoint" />
+            <mxPoint x="370" y="669" as="sourcePoint" />
+            <mxPoint x="456.8800000000001" y="669.1700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8vo4OhTq8frCDT7aDKK4-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="30" width="75" x="267" y="1006" as="geometry" />
+          <mxGeometry height="30" width="75" x="269" y="1073" as="geometry" />
+        </mxCell>
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-4" edge="1" parent="1" source="uEfUsDrf_YHYb4tcvCho-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="发送时序到HWC" vertex="1">
+          <mxGeometry height="40" width="125" x="243" y="714" as="geometry" />
+        </mxCell>
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-7" edge="1" parent="1" source="uEfUsDrf_YHYb4tcvCho-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8vo4OhTq8frCDT7aDKK4-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEfUsDrf_YHYb4tcvCho-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="发送时序到HWC" vertex="1">
+          <mxGeometry height="40" width="117" x="248" y="1007" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
