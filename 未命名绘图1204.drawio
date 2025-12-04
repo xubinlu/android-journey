@@ -25,7 +25,7 @@
         <mxCell id="j9qfBCTW1qRkoa7lAOKp-7" edge="1" parent="1" source="j9qfBCTW1qRkoa7lAOKp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j9qfBCTW1qRkoa7lAOKp-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j9qfBCTW1qRkoa7lAOKp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="逐像素遍历CurBuf和PreBuf&lt;div&gt;并根据Update波形表合成时序&lt;/div&gt;" vertex="1">
+        <mxCell id="j9qfBCTW1qRkoa7lAOKp-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="逐像素遍历CurBuf和PreBuf&lt;div&gt;并根据Update波形合成时序&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="169" x="222" y="430" as="geometry" />
         </mxCell>
         <mxCell id="j9qfBCTW1qRkoa7lAOKp-9" edge="1" parent="1" source="j9qfBCTW1qRkoa7lAOKp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j9qfBCTW1qRkoa7lAOKp-36">
@@ -123,8 +123,8 @@
         <mxCell id="j9qfBCTW1qRkoa7lAOKp-31" edge="1" parent="j9qfBCTW1qRkoa7lAOKp-18" source="j9qfBCTW1qRkoa7lAOKp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j9qfBCTW1qRkoa7lAOKp-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j9qfBCTW1qRkoa7lAOKp-32" parent="j9qfBCTW1qRkoa7lAOKp-18" style="whiteSpace=wrap;html=1;" value="记录当前点周围八个点黑切白的个数写入GhostClear" vertex="1">
-          <mxGeometry height="40" width="147.5" x="45.039999999999964" y="280" as="geometry" />
+        <mxCell id="j9qfBCTW1qRkoa7lAOKp-32" parent="j9qfBCTW1qRkoa7lAOKp-18" style="whiteSpace=wrap;html=1;" value="记录当前点周围八个点中灰黑切白的个数写入GhostClear" vertex="1">
+          <mxGeometry height="40" width="164.96" x="36.04" y="280" as="geometry" />
         </mxCell>
         <mxCell id="j9qfBCTW1qRkoa7lAOKp-33" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
